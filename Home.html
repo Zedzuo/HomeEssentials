@@ -1,0 +1,680 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--=============== SWIPER CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Home Essentials - Home</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <i class='bx bxs-bed nav__logo-icon'></i> HomExpo
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#featured" class="nav__link">Featured</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">Products</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#new" class="nav__link">Vlog</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x' ></i>
+                    </div>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+                    <div class="nav__shop" id="cart-shop">
+                        <i class='bx bx-shopping-bag' ></i>
+                    </div>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class='bx bx-grid-alt' ></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== CART ====================-->
+        <div class="cart" id="cart">
+            <i class='bx bx-x cart__close' id="cart-close"></i>
+
+            <h2 class="cart__title-center">My Cart</h2>
+
+            <div class="cart__container">
+                <article class="cart__card">
+                    <div class="cart__box">
+                        <img src="assets/img/s16.jpg" alt="" class="cart__img">
+                    </div>
+
+                    <div class="cart__details">
+                        <h3 class="cart__title">Smart TV</h3>
+                        <span class="cart__price">₱ 20,000</span>
+
+                        <div class="cart__amount">
+                            <div class="cart__amount-content">
+                                <span class="cart__amount-box">
+                                    <i class='bx bx-minus' ></i>
+                                </span>
+
+                                <span class="cart__amount-number">1</span>
+
+                                <span class="cart__amount-box">
+                                    <i class='bx bx-plus' ></i>
+                                </span>
+                            </div>
+
+                            <i class='bx bx-trash-alt cart__amount-trash' ></i>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="cart__card">
+                    <div class="cart__box">
+                        <img src="assets/img/s15.jpg" alt="" class="cart__img">
+                    </div>
+
+                    <div class="cart__details">
+                        <h3 class="cart__title">Rice Cooker</h3>
+                        <span class="cart__price">₱20,000</span>
+
+                        <div class="cart__amount">
+                            <div class="cart__amount-content">
+                                <span class="cart__amount-box">
+                                    <i class='bx bx-minus' ></i>
+                                </span>
+
+                                <span class="cart__amount-number">1</span>
+
+                                <span class="cart__amount-box">
+                                    <i class='bx bx-plus' ></i>
+                                </span>
+                            </div>
+
+                            <i class='bx bx-trash-alt cart__amount-trash' ></i>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cart__card">
+                    <div class="cart__box">
+                        <img src="assets/img/s10.jpg" alt="" class="cart__img">
+                    </div>
+
+                    <div class="cart__details">
+                        <h3 class="cart__title">Shower Curtain</h3>
+                        <span class="cart__price">₱1,900</span>
+
+                        <div class="cart__amount">
+                            <div class="cart__amount-content">
+                                <span class="cart__amount-box">
+                                    <i class='bx bx-minus' ></i>
+                                </span>
+
+                                <span class="cart__amount-number">1</span>
+
+                                <span class="cart__amount-box">
+                                    <i class='bx bx-plus' ></i>
+                                </span>
+                            </div>
+
+                            <i class='bx bx-trash-alt cart__amount-trash' ></i>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="cart__prices">
+                <span class="cart__prices-item">3 items</span>
+                <span class="cart__prices-total">₱49,000</span>
+            </div>
+        </div>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <div class="home__img-bg">
+                        <img src="assets/img/s1.jpg" alt="" class="home__img">
+                    </div>
+    
+                    <div class="home__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                            Facebook
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                            Twitter
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                            Instagram
+                        </a>
+                    </div>
+    
+                    <div class="home__data">
+                        <h1 class="home__title">NEW EQUISITE <br> LIVING ROOM SETS</h1>
+                        <p class="home__description">
+                            Revamp Your Living Space with our new Exquisite Living Room Sets! Elevate the ambiance
+                            of your home with our stunning collection of living room sets. Immerse yourself in
+                            luxurious comfort with our plush sofas, complemented by stylish coffee tables and 
+                            accent chairs that add a touch of personality. Enhance your entertainment experience
+                            with our modern entertainment units, while our exquisite lighting fixtures create
+                            the perfect atmosphere. Don't miss this opportunity to revitalize your living
+                            room - explore our exclusive collection today!
+                            
+                        </p>
+                        <span class="home__price">₱70,000</span>
+
+                        <div class="home__btns">
+                            <a href="#" class="button button--gray button--small">
+                                Discover
+                            </a>
+
+                            <button class="button home__button">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== FEATURED ====================-->
+            <section class="featured section container" id="featured">
+                <h2 class="section__title">
+                    Featured
+                </h2>
+
+                <div class="featured__container grid">
+                    <article class="featured__card">
+                        <span class="featured__tag">Sale</span>
+
+                        <img src="assets/img/s2.jpg" alt="" class="featured__img">
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">Kitchenware Set</h3>
+                            <span class="featured__price">₱2,500</span>
+                            <p>Get your kitchen ready for culinary greatness with our
+                               premium kitchenware set! From non-stick cookware to
+                                precision-cut knives, this all-in-one package is a recipe for 
+                                success, now available at an unbeatable price. Don't miss out,
+                                 upgrade your kitchen essentials today!</p>
+                        </div>
+
+                        <button class="button featured__button">ADD TO CART</button>
+                    </article>
+
+                    <article class="featured__card">
+                        <span class="featured__tag">Sale</span>
+
+                        <img src="assets/img/s3.jpg" alt="" class="featured__img">
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">Food Storage</h3>
+                            <span class="featured__price">₱800</span>
+                            <p>Keep your pantry organized and your leftovers fresh 
+                                with our versatile food storage solutions! From
+                                 airtight containers to stackable sets, our discounted collection
+                                  ensures convenience and maximizes your kitchen space. Don't wait,
+                                   grab these storage essentials now and say goodbye to messy cabinets 
+                                   and wasted food!</p>
+                        </div>
+
+                        <button class="button featured__button">ADD TO CART</button>
+                    </article>
+
+                    <article class="featured__card">
+                        <span class="featured__tag">Sale</span>
+
+                        <img src="assets/img/s4.jpg" alt="" class="featured__img">
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">Home Appliances Bundles</h3>
+                            <span class="featured__price">₱80,000</span>
+                            <p>Upgrade your home with our comprehensive appliances set, 
+                                designed to simplify your life! From a sleek refrigerator
+                                 to a powerful washing machine, this all-in-one package combines
+                                  functionality and style, providing you with the ultimate
+                                   convenience at an incredible value. Don't miss this opportunity
+                                    to transform your home into a modern haven!</p>
+
+
+                        </div>
+
+                        <button class="button featured__button">ADD TO CART</button>
+                    </article>
+                </div>
+            </section>
+
+            <!--==================== STORY ====================-->
+            <section class="story section container">
+                <div class="story__container grid">
+                    <div class="story__data">
+                        <h2 class="section__title story__section-title">
+                           New Release Modern Furniture
+                        </h2>
+    
+                        <h1 class="story__title">
+                            Outstanding Furniture <br>  2023
+                        </h1>
+    
+                        <p class="story__description">
+                            Elevate your living space with our stunning collection 
+                            of modern furniture, blending sleek design with 
+                            exceptional comfort. From chic sofas to contemporary
+                             dining sets, our handpicked selection will effortlessly
+                              transform your home into a stylish sanctuary.
+                               Don't miss out on this opportunity to create a modern
+                                and inviting atmosphere - explore our furniture 
+                                collection today and redefine your living space
+                                 with contemporary elegance.
+                        </p>
+    
+                        <a href="#" class="button button--small">Discover</a>
+                    </div>
+
+                    <div class="story__images">
+                        <img src="assets/img/s5.jpg" alt="" class="story__img">
+                        <div class="story__square"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PRODUCTS ====================-->
+            <section class="products section container" id="products">
+                <h2 class="section__title">
+                    Products
+                </h2>
+
+                <div class="products__container grid">
+                    <article class="products__card">
+                        <img src="assets/img/s6.jpg" alt="" class="products__img">
+
+                        <h3 class="products__title">Modern Bedroom</h3>
+                        <span class="products__price">₱31,500</span>
+
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+
+                    <article class="products__card">
+                        <img src="assets/img/s7.jpg" alt="" class="products__img">
+
+                        <h3 class="products__title">Movable Table</h3>
+                        <span class="products__price">₱22,350</span>
+
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+
+                    <article class="products__card">
+                        <img src="assets/img/s8.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Whirpool Refrigirator</h3>
+                        <span class="products__price">₱18,000</span>
+
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+
+                    <article class="products__card">
+                        <img src="assets/img/s9.jpg" alt="" class="products__img">
+
+                        <h3 class="products__title">Samsung Electric Stove</h3>
+                        <span class="products__price">₱25,650</span>
+
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+
+                    <article class="products__card">
+                        <img src="assets/img/s10.jpg" alt="" class="products__img">
+
+                        <h3 class="products__title">Shower Curtain</h3>
+                        <span class="products__price">₱1,950</span>
+
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+                    <article class="products__card">
+                        <img src="assets/img/s11.jpg" alt="" class="products__img">
+
+                        <h3 class="products__title">Bed Sheets</h3>
+                        <span class="products__price">₱1,000</span>
+
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+                </div>
+            </section>
+
+            <!--==================== TESTIMONIAL ====================-->
+            <section class="testimonial section container">
+                <div class="testimonial__container grid">
+                    <div class="swiper testimonial-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="testimonial__card swiper-slide">
+                                <div class="testimonial__quote">
+                                    <i class='bx bxs-quote-alt-left' ></i>
+                                </div>
+                                <p class="testimonial__description">
+                                    "I recently purchased kitchenware from this home essential website, and I am extremely impressed with the quality and durability of the products. The customer service was also exceptional, ensuring a smooth and pleasant shopping experience. Highly recommended!"
+                                </p>
+                                <h3 class="testimonial__date">March 20, 2023</h3>
+        
+                                <div class="testimonial__perfil">
+                                   
+        
+                                    <div class="testimonial__perfil-data">
+                                        <span class="testimonial__perfil-name">Cristo Rey Reforsado</span>
+                                        <span class="testimonial__perfil-detail">Customer</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="testimonial__card swiper-slide">
+                                <div class="testimonial__quote">
+                                    <i class='bx bxs-quote-alt-left' ></i>
+                                </div>
+                                <p class="testimonial__description">
+                                    "I was in need of food storage solutions, and I stumbled upon this website. I couldn't be happier with my purchase! The variety of containers and their functionality exceeded my expectations. Plus, the quick delivery and well-packaged items showcased their commitment to customer satisfaction."
+                                </p>
+                                <h3 class="testimonial__date">March 23. 2023</h3>
+        
+                                <div class="testimonial__perfil">
+                                    
+        
+                                    <div class="testimonial__perfil-data">
+                                        <span class="testimonial__perfil-name">Grazelyn Rabe</span>
+                                        <span class="testimonial__perfil-detail">VIP Customer</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="testimonial__card swiper-slide">
+                                <div class="testimonial__quote">
+                                    <i class='bx bxs-quote-alt-left' ></i>
+                                </div>
+                                <p class="testimonial__description">
+                                    "I furnished my entire home with their modern furniture collection, and I couldn't be happier with the results. The pieces are not only stylish but also of excellent quality. I receive compliments from every guest who visits. A fantastic investment for anyone looking to enhance their living space!"
+                                </p>
+                                <h3 class="testimonial__date">March 21, 2023</h3>
+        
+                                <div class="testimonial__perfil">
+                                    
+        
+                                    <div class="testimonial__perfil-data">
+                                        <span class="testimonial__perfil-name">James Clark Relucio</span>
+                                        <span class="testimonial__perfil-detail">Customer</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="testimonial__card swiper-slide">
+                                <div class="testimonial__quote">
+                                    <i class='bx bxs-quote-alt-left' ></i>
+                                </div>
+                                <p class="testimonial__description">
+                                    "I recently upgraded my home appliances with the help of this website, and it has been a game-changer. The appliances are top-notch, efficient, and aesthetically pleasing. The website's user-friendly interface and detailed product descriptions made it easy for me to choose the perfect set for my needs. I'm beyond satisfied!"
+                                </p>
+                                <h3 class="testimonial__date">March 21, 2023</h3>
+        
+                                <div class="testimonial__perfil">
+                                    
+        
+                                    <div class="testimonial__perfil-data">
+                                        <span class="testimonial__perfil-name">Lexha Reniva</span>
+                                        <span class="testimonial__perfil-detail">Walang BF Deserve</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial__card swiper-slide">
+                                <div class="testimonial__quote">
+                                    <i class='bx bxs-quote-alt-left' ></i>
+                                </div>
+                                <p class="testimonial__description">
+                                    "I recently purchased several items from this home essentials website and I am extremely satisfied with my experience. The website was easy to navigate, and I found exactly what I was looking for. The products arrived quickly and were of excellent quality. I will definitely be shopping here again!"
+                                </p>
+                                <h3 class="testimonial__date">March 21, 2023</h3>
+        
+                                <div class="testimonial__perfil">
+                                    
+        
+                                    <div class="testimonial__perfil-data">
+                                        <span class="testimonial__perfil-name">Denise Republo</span>
+                                        <span class="testimonial__perfil-detail">Customer</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial__card swiper-slide">
+                                <div class="testimonial__quote">
+                                    <i class='bx bxs-quote-alt-left' ></i>
+                                </div>
+                                <p class="testimonial__description">
+                                    "I stumbled upon this home essentials website while searching for some new kitchen gadgets, and I'm so glad I did! The selection of products is amazing, and I found some unique and useful items that I haven't seen elsewhere. The checkout process was smooth, and my order arrived on time. I'm thrilled with my purchase and will definitely be a repeat customer."
+                                </p>
+                                <h3 class="testimonial__date">March 21, 2023</h3>
+        
+                                <div class="testimonial__perfil">
+                                    
+        
+                                    <div class="testimonial__perfil-data">
+                                        <span class="testimonial__perfil-name">John Carlo Morales</span>
+                                        <span class="testimonial__perfil-detail">Customer</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-button-next">
+                            <i class='bx bx-right-arrow-alt' ></i>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <i class='bx bx-left-arrow-alt' ></i>
+                        </div>
+                    </div>
+
+                    <div class="testimonial__images">
+                        <div class="testimonial__square"></div>
+                        <img src="assets/img/s12.jpg" alt="" class="testimonial__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== NEW ====================-->
+            <section class="new section container" id="new">
+                <h2 class="section__title">
+                    Latest Home HomExpo!
+                </h2>
+                
+                <div class="new__container">
+                    <div class="swiper new-swiper">
+                        <div class="swiper-wrapper">
+                            <article class="new__card swiper-slide">
+                                <span class="new__tag">New</span>
+        
+                                <img src="assets/img/s13.jpg" alt="" class="new__img">
+        
+                                <div class="new__data">
+                                    <h3 class="new__title">Air Purifier</h3>
+                                   
+                                </div>
+        
+                               
+                            </article>
+
+                            <article class="new__card swiper-slide">
+                                <span class="new__tag">New</span>
+        
+                                <img src="assets/img/s14.jpeg" alt="" class="new__img">
+        
+                                <div class="new__data">
+                                    <h3 class="new__title">Non-Stick Pan</h3>
+                                   
+                                </div>
+        
+                            </article>
+
+                            <article class="new__card swiper-slide">
+                                <span class="new__tag">New</span>
+        
+                                <img src="assets/img/s15.jpg" alt="" class="new__img">
+        
+                                <div class="new__data">
+                                    <h3 class="new__title">Rice Cooker</h3>
+                                </div>
+        
+                            </article>
+
+                            <article class="new__card swiper-slide">
+                                <span class="new__tag">New</span>
+        
+                                <img src="assets/img/s16.jpg" alt="" class="new__img">
+        
+                                <div class="new__data">
+                                    <h3 class="new__title">Apple TV</h3>
+                                 
+                                </div>
+        
+                            </article>                       
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== NEWSLETTER ====================-->
+            <section class="newsletter section container">
+                <div class="newsletter__bg grid">
+                    <div>
+                        <h2 class="newsletter__title">Subscribe <br> to Earn Points!</h2>
+                        <p class="newsletter__description">
+                            Don't miss out on your discounts.
+                            and be a Solid Customer.
+                        </p>
+                    </div>
+
+                    <form action="" class="newsletter__subscribe">
+                        <input type="email" placeholder="Enter your email" class="newsletter__input">
+                        <button class="button">
+                            SUBSCRIBE
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <h3 class="footer__title">Our information</h3>
+
+                    <ul class="footer__list">
+                        <li>Philippines</li>
+                        <li>Bicol</li>
+                        <li>Albay</li>
+                        <li>Polangui</li>
+                    </ul>
+                </div>
+                <div class="footer__content">
+                    <h3 class="footer__title">About Us</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Support Center</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Customer Support</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Copy Right</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Product</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Living Room Sets</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Kitchenware</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Home Appliances</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Bedroom</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Social</h3>
+
+                    <ul class="footer__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+
+                        <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-twitter' ></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-instagram' ></i>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+
+            <span class="footer__copy">&#169; Property Home Essentials Group - Internet Technologies</span>
+        </footer>
+
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class='bx bx-up-arrow-alt scrollup__icon' ></i>
+        </a>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
